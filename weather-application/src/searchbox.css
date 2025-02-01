@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+.custom-input {
+    width: 300px;
+    
+  }
+  
+  .custom-input .MuiInputBase-root {
+    height: 42px; 
+    display: flex;
+    justify-content: center;
+    margin-right: 1.5rem
+    
+  }
+ .remark{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  width: 5rem;
+  height: 2.2rem;
+  border-radius: 7px;
+ }
+ .input input{
+  height: 1.7rem;
+  width: 15rem;
+  background: none;
+  color: white;
+  margin-right: 1rem;
+  outline: 1.5px solid white;
+  border-radius: 6px;
+ }

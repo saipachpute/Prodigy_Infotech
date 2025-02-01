@@ -1,0 +1,15 @@
+html, body {
+    height: 100%; /* Ensures both html and body stretch to the full viewport height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+body{
+  background-image: url('./assets/weatherDark.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  
+  
+}
