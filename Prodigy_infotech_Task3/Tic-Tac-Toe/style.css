@@ -1,0 +1,87 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color:black;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+ 
+    border: 2px solid rgb(140, 212, 31);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 55px;
+}
+
+.game-title {
+    font-size: 70px;
+    color: red;
+    margin: 10px auto;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 295px;
+    margin: 10px auto;
+    background-color:black;
+    color: #04c0b2;
+}
+
+.game-status {
+    font-size: 50px;
+    color: red;
+    margin: 20px auto;
+}
+
+.game-restart {
+    background: transparent;
+    border-radius: 6px;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    color: red;
+    
+    border: 1.6px solid red;
+}
+.game-restart :hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px 3px  #acb1c3
+}
+#cell_1{
+    border-left: 2px solid black;
+    border-top:2px solid black ;
+}
+#cell_2{
+   
+    border-top:2px solid black ;
+}
+#cell_3{
+    border-right: 2px solid black;
+    border-top:2px solid black ;
+}
+#cell_4{
+    border-left: 2px solid black;
+    
+}
+#cell_6{
+    border-right: 2px solid black;
+    
+}
+#cell_7{
+    border-left: 2px solid black;
+    border-bottom:2px solid black ;
+}
+#cell_8{
+  
+    border-bottom:2px solid black ;
+}
+#cell_9{
+    border-right: 2px solid black;
+    border-bottom:2px solid black ;
+}
